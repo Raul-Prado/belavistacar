@@ -1,20 +1,22 @@
 $(document).ready(function()
 {
-    $('.carousel').carousel();
+    // $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+    });
     $('.scrollspy').scrollSpy();
     // zoom foto
     $('.materialboxed').materialbox();
     //mostrar munu mobile
     $('.button-collapse').sideNav();
     // slider
-    $('.slider').slider({
-        fullWidth: true,
-        indicators: false,
-    });
+    // $('.slider').slider({
+    //     fullWidth: true,
+    //     indicators: true,
+    // });
     // parallax
     $('.parallax').parallax();
-    // tabs
-    $('ul.tabs').tabs();
     // tooltipped
     $('.tooltipped').tooltip();
     // btn up

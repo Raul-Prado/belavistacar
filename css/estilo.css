@@ -53,7 +53,7 @@ nav{
 }
 /* banner */
 .presentation{
-    background-image:url('../img/car-fiat.jpg');
+    background-image:url('../img/banner10.jpg');
     max-width: 100%;
     height:38.4em;
     background-repeat: no-repeat;
@@ -76,6 +76,13 @@ nav{
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-top:-10em;
+}
+.btn-center-green{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     margin-top:-2em;
 }
 a.btn-effect{
@@ -91,7 +98,7 @@ a.btn-effect:hover{
     border-style:groove;
 }
 .btn-effect-green{
-    background:rgb(35, 255, 64) !important;
+    background:rgb(11, 221, 39) !important;
     border-radius:10px !important;
     font-family:'Montserrat-regular',Arial, Helvetica, sans-serif !important;
 	font-display:swap !important;
@@ -108,7 +115,7 @@ a.btn-effect:hover{
     width: 100%;
     /* display: flex; */
     align-items: center;
-    margin-top:30%;
+    margin-top:20%;
     height:150px;
 }
 i.icon{
@@ -125,6 +132,16 @@ details{
 	font-display: swap;
     font-size:1.2em;
     font-weight: bold;
+}
+.img-hover:hover{
+    padding:10px;
+    transition:1s;
+}
+/* paralax */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 350px !important;
 }
 /* feedback */
 div.card-fox{
@@ -162,7 +179,7 @@ div.card-fox{
 .h4-titulo{
     font-family: 'Montserrat-Medium', Arial, Helvetica, sans-serif;
 	font-display: swap;
-    font-size:1.7em;
+    font-size:1.5em;
     font-weight: bold;
     text-align: center;
 }
@@ -170,7 +187,6 @@ div.card-fox{
     font-family:'Montserrat-Bold',Arial, Helvetica, sans-serif;
 	font-display: swap;
     font-size:1.3em;
-    font-weight: bold;
     text-align: center;
     color:var(--white);
 }
@@ -211,4 +227,14 @@ div.footer-sub{
     margin: 0 auto;
     border-radius:20px 20px 0px 0px;
     padding:0.5%;
+}
+/* mobile */
+@media only screen and (max-width:800px){
+    .btn-center{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-top:-3em;
+    }
 }

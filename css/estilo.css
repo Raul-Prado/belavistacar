@@ -23,10 +23,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-*{
-    margin:0;
-    padding:0;
-}
 /* cores */
 :root{
     --black:#000000;
@@ -34,15 +30,27 @@
     --blue:rgb(35, 130, 255);
     --red:#ff0000;
     --yellow:yellow;
+    --grey:Grey;
+}
+main{
+    padding:15px;
 }
 /*  */
 nav{
-    padding:10px;
+    padding:5px;
     font-family:'Montserrat-Bold',Arial, Helvetica, sans-serif;
 	font-display: swap;
+    height:80px !important;
+    border:2px #9e9e9e solid;
+    margin:15px 0px 0px 15px;
+    width:98% !important;
+}
+.nav-a{
+    color:var(--black);
 }
 .nav-a:hover{
     background-color:var(--black);
+    color:var(--white);
 }
 .icon-menu{
     margin-top:-8px;
@@ -51,25 +59,27 @@ nav{
 .icon-menu:hover{
     background-color:var(--black);
 }
+/* icone */
+.i-rede{
+    color:var(--black);
+}
+i.i-rede:hover{
+    color:var(--white) !important;
+}
 /* banner */
+.slide2{
+    margin-top:5%;
+}
 .presentation{
-    background-image:url('../img/banner10.jpg');
+    background-image:url('../img/bannerOFF.jpg');
     max-width: 100%;
-    height:38.4em;
+    /* height:38.4em; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
-    position: relative;
-}
-.content{
-    position: absolute;
-    bottom:0;
-    width:100%;
-    height:579px;
-    background:rgba(255, 0, 0, 0.5);
-    color:white;
+    /* position: relative; */
 }
 .btn-center{
     justify-content: center;
@@ -105,11 +115,20 @@ a.btn-effect:hover{
     font-size:0.9em !important;
     font-weight:bold !important;
 }
+/* menu */
+div.card-fox:hover{
+    background-color:var(--grey);
+    transition:0.5s;
+}
+div.feed-stan a:hover{
+    color:var(--white) !important;
+    transition:0.5s;
+}
 /* faixa */
 .faixa-content{
     margin-top:-20px;
     height:100%;
-    background:var(--black);
+    background:var(--white);
 }
 .icone{
     width: 100%;
@@ -137,6 +156,12 @@ details{
     padding:10px;
     transition:1s;
 }
+/* menu top */
+.content{
+    display:none;
+    cursor: pointer !important;
+}
+.selected{display:block;}
 /* paralax */
 .parallax-container {
     position: relative;
@@ -174,7 +199,7 @@ div.card-fox{
 	font-display: swap;
     font-size:2.5em;
     font-weight: bold;
-    color:var(--white);
+    color:var(--black);
 }
 .h4-titulo{
     font-family: 'Montserrat-Medium', Arial, Helvetica, sans-serif;
@@ -205,12 +230,19 @@ div.card-fox{
 	font-display: swap;
     font-size:1.1em;
     font-weight: bold;
-    color:var(--white);
+    color:var(--black);
 }
 .paragraph-footer{
     font-family:'Montserrat-regular',Arial, Helvetica, sans-serif;
 	font-display: swap;
     font-size:1em;
+}
+/* parceiros */
+.img-effects{
+    opacity:0.3;
+}
+.img-effects:hover{
+    opacity:1.0;
 }
 /* onde estamos */
 .maps{
@@ -230,6 +262,13 @@ div.footer-sub{
 }
 /* mobile */
 @media only screen and (max-width:800px){
+    nav{
+        margin:15px 0px 0px 15px;
+        width:93% !important;
+    }
+    nav .brand-logo{
+        font-size:1.5em !important;
+    }
     .btn-center{
         justify-content: center;
         align-items: center;

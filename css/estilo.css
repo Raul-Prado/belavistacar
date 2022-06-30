@@ -120,9 +120,10 @@ div.card-fox:hover{
     background-color:var(--grey);
     transition:0.5s;
 }
-div.feed-stan a:hover{
+div.tist:hover{
     color:var(--white) !important;
     transition:0.5s;
+    cursor: pointer;
 }
 /* faixa */
 .faixa-content{
@@ -134,8 +135,8 @@ div.feed-stan a:hover{
     width: 100%;
     /* display: flex; */
     align-items: center;
-    margin-top:20%;
-    height:150px;
+    margin-top:10%;
+    height:100px;
 }
 i.icon{
     color:var(--white);
@@ -211,7 +212,7 @@ div.card-fox{
 .h5-titulo{
     font-family:'Montserrat-Bold',Arial, Helvetica, sans-serif;
 	font-display: swap;
-    font-size:1.3em;
+    font-size:1.1em;
     text-align: center;
     color:var(--white);
 }
@@ -228,7 +229,7 @@ div.card-fox{
 .paragraph{
     font-family:'Montserrat-regular',Arial, Helvetica, sans-serif;
 	font-display: swap;
-    font-size:1.1em;
+    font-size:1em;
     font-weight: bold;
     color:var(--black);
 }

@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Bela Vista Car - Porta Chaves para Carros</title>
-        <meta name="theme-color" content="#f44336">
+        <meta name="theme-color" content="#000000">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,11 +44,9 @@
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo black-text">Bela vista car</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <!-- <li><a href="#produtos" class="nav-a" rel="noopener noreferrer">Produtos</a></li> -->
                   <li><a href="#depoimentos" class="nav-a" rel="noopener noreferrer">Depoimentos</a></li>
                   <li><a href="#parceiros" class="nav-a" rel="noopener noreferrer">Parceiros</a></li>
                   <li><a href="#galeria" class="nav-a" rel="noopener noreferrer">Galeria</a></li>
-                  <!-- <li><a href="#contato" class="nav-a" rel="noopener noreferrer">Contato</a></li> -->
                   <li><a class="icon-menu" href="" target="_blank" title="Instagram"><i style="color:#000000;" class="fa fa-instagram fa-lg i-rede" aria-hidden="true"></i>&nbsp;
                   </a></li>
                   <li><a class="icon-menu" href="" target="_blank" title="Facebook"><i style="color:#000000;" class="fa fa-facebook fa-lg i-rede" aria-hidden="true"></i>&nbsp;
@@ -60,17 +58,17 @@
                     <li>
                         <div class="user-view">
                             <div class="background">
-                                <img src="img/bannerOFF.jpg" class="responsive-img" loading="lazy" alt="" width="500" height="200">
+                                <img src="img/banner-promocao-site.jpg" class="responsive-img" loading="lazy" alt="" width="500" height="200">
                             </div><br><br>
-                            <!-- <a href="#!user"><img class="circle" src=""></a>
-                            <a href="#!name"><span class="white-text name">John Doe</span></a> -->
-                            <a href="#!email"><span class="white-text email">falecombelavistacar@gmail.com</span></a>
+                            <a href="mailto:contato@belavistacar.com.br"><span class="white-text email">contato@belavistacar.com.br</span></a>
                         </div>
                     </li>
-                    <!-- <li><a href="#produtos" class="nav-a" rel="noopener noreferrer">Produtos</a></li> -->
-                    <li><a href="#depoimentos" class="nav-a" rel="noopener noreferrer">Depoimentos</a></li>
-                    <li><a href="#parceiros" class="nav-a" rel="noopener noreferrer">Parceiros</a></li>
-                    <!-- <li><a href="#contato" class="nav-a" rel="noopener noreferrer">Contato</a></li> -->
+                    <!-- <li><a href="#!" class="" rel="noopener noreferrer">Quem Somos</a></li>
+                    <li><a href="#!" class="" rel="noopener noreferrer">Produtos</a></li> -->
+                    <li><a href="#depoimentos" class="" rel="noopener noreferrer">Depoimentos</a></li>
+                    <li><a href="#parceiros" class="" rel="noopener noreferrer">Parceiros</a></li>
+                    <li><a href="#galeria" class="" rel="noopener noreferrer">Galeria</a></li>
+                    <!-- <li><a href="#!" class="" rel="noopener noreferrer">Contato</a></li> -->
                     <li><div class="divider"></div></li>
                 </ul>
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons black-text">menu</i></a>
@@ -78,18 +76,29 @@
         </nav>
         <!-- banner -->
         <section style="padding:15px;">
-            <div class="slider">
-                <ul class="slides">
-                    <li class="presentation">
-                        <!-- <img src="img/bannerOFF.jpg" class="responsive-img" loading="lazy" alt="" width="500" height="200"> -->
-                    </li>
-                    <!-- OPÇÃO 1 -->
-                    <!-- <li class="banner-degrade">
-                        <img class="" src="" alt="">
-                        <div class="slide2 caption center-align row">
+            <div class="row">
+                <div class="carousel carousel-slider">
+                    <!-- <div class="carousel-fixed-item center">
+                        <div class="btn-center">
+                            <a href="http://" class="btn btn-effect" target="_blank" rel="noopener noreferrer">Fale conosco</a>
                         </div>
-                    </li> -->
-                </ul>
+                    </div> -->
+                    <div class="carousel-item red white-text" href="#one!">
+                        <img src="img/banner-promocao-site.jpg" class="responsive-img" loading="lazy" alt="" width="500" height="150">
+                    </div>
+                    <!-- <div class="carousel-item amber white-text" href="#two!">
+                        <h2>Second Panel</h2>
+                        <p class="white-text">This is your second panel</p>
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!">
+                        <h2>Third Panel</h2>
+                        <p class="white-text">This is your third panel</p>
+                    </div>
+                    <div class="carousel-item blue white-text" href="#four!">
+                        <h2>Fourth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p>
+                    </div> -->
+                </div>
             </div>
         </section>
         <main>
@@ -121,7 +130,7 @@
                             <div class="card card-fox">
                                 <div class="card-content white-text">
                                     <div class="feed-stan">
-                                        <div data-id="budget" onclick="evento(this)"class="black-text tist"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><p class="center-align h5-titulo">ORÇAMENTO</p></div>
+                                        <div data-id="budget" onclick="evento(this)" class="black-text tist"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><p class="center-align h5-titulo">ORÇAMENTO</p></div>
                                     </div>
                                 </div>
                             </div>
@@ -129,11 +138,13 @@
                     </div>
                     <!-- sobre -->
                     <div>
-                        <div class="row content" id="about">
+                        <div class="row content" id="about" class="scrollspy">
                             <div class="col s12 m12 l6"><br><br>
                                 <h2 class="h2-titulo">Sobre nós</h2>
                                 <h3 class="h3-titulo">à mais de 5 anos no mercado de auto-peças</h3>
-                                <p class="paragraph">A Bela Vista Car é uma fabricante de auto-peças, que fica sediada no estado de São Paulo e atua à mais de 5 anos no mercado de auto-peças, nós nos afirmamos como uma empresa que se compromete a entregar qualidade aos seus clientes, por isso nós adotamos isso como um princípio básico, o resultado disso são clientes satisfeitos.</p><br>
+                                <p class="paragraph">A Bela Vista Car é uma fabricante de auto-peças, que fica sediada no estado de São Paulo e atua à mais de 5 anos no mercado de auto-peças, nós nos afirmamos como uma empresa que se compromete a entregar qualidade aos seus clientes, por isso nós adotamos isso como um princípio básico, o resultado disso são clientes satisfeitos.
+                                Fundada em 2019 a R.Ribeiro Comércio e Serviços em Porta Chaves ( Bela vista Car ) nome fantasia , com intuito de adicionar uma nova categoria em qualidade de porta Chaves e acessórios de gerenciamento de Frotas e imóveis , sediada  na grande São Paulo fornece produtos para as maiores empresas do ramo .
+                                </p><br>
                                 <a href="#galeria" class="btn btn-effect" rel="noopener noreferrer">Conheça nossos produtos!</a><br><br>
                             </div>
                             <div class="col s12 m12 l6">
@@ -143,16 +154,16 @@
                         <!-- produtos -->
                         <div class="content" id="product">
                             <h4 class="h4-titulo">Nossos Produtos</h4>
-                            <hr style="width: 200px; border-top: 3px solid #ff4343; margin: 15px auto;">
+                            <hr style="width: 200px; border-top: 3px solid #FFA007; margin: 15px auto;">
                             <!-- serviço 1 -->
                             <div class="row">
                                 <div class="col s12 m6 l6">
                                     <div class="grey lighten-4">
                                         <div class="">
-                                            <img src="img/placas.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
-                                            <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Placas Personalizadas</h4>
+                                            <img src="img/placa-aluminio.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
+                                            <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Placa Alumínio</h4>
                                             <details>
-                                                <p class="paragraph-footer black-text">abaixo estão as especificações técnicas do produto.</p>
+                                                <p class="paragraph-footer black-text">Medidas placas aluminio 40x14.<br>abaixo estão as especificações técnicas do produto.</p>
                                                 <ul>
                                                     <li>- Evita o extravio das chaves;</li>
                                                     <li>- Organização;</li>
@@ -174,7 +185,7 @@
                                             <img src="img/porta-chaves-aluminio.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
                                             <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Porta Chaves Alumínio</h4>
                                             <details>
-                                                <p class="paragraph-footer black-text">Alguns dos benefícios.</p>
+                                                <p class="paragraph-footer black-text">Medidas:10x10x4.<br>Alguns dos benefícios.</p>
                                                 <ul>
                                                     <li>- Evita o extravio das chaves;</li>
                                                     <li>- Organização;</li>
@@ -190,13 +201,13 @@
                                     </div>
                                 </div>
                                 <!-- serviço 3 -->
-                                <div class="col s12 m6 l6">
+                                <div class="col s12 m6 l6"><br>
                                     <div class="grey lighten-4">
                                         <div class="">
                                             <img src="img/porta-chaves-nylon.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
                                             <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Porta Chaves Nylon</h4>
                                             <details>
-                                                <p class="paragraph-footer black-text">Alguns dos benefícios.</p>
+                                                <p class="paragraph-footer black-text">Medidas 8x8x5.<br>Alguns dos benefícios.</p>
                                                 <ul>
                                                     <li>- Evita o extravio das chaves;</li>
                                                     <li>- Organização;</li>
@@ -212,18 +223,18 @@
                                     </div>
                                 </div>
                                 <!-- serviço 4 -->
-                                <div class="col s12 m6 l6">
+                                <div class="col s12 m6 l6"><br>
                                     <div class="grey lighten-4">
                                         <div class="">
-                                            <img src="img/placas.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
-                                            <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Porta Chaves Nylon</h4>
+                                            <img src="img/placa-nylon.jpg" class="responsive-img img-hover" loading="lazy" alt="" width="500" height="150">
+                                            <h4 class="h4-titulo black-text" style="margin-bottom:-10px;">Placa Nylon</h4>
                                             <details>
-                                                <p class="paragraph-footer black-text">abaixo estão as especificações técnicas do produto.</p><br>
+                                                <p class="paragraph-footer black-text">Medidas placas aluminio 40x14.<br>Alguns dos benefícios.</p>
                                                 <ul>
-                                                    <li>Material: Alumínio e EVA;</li>
-                                                    <li>Cilindro: ART 481/491;</li>
-                                                    <li>Fornecedor: Papaiz, Gold ou Terceiros;</li>
-                                                    <li>Não enferruja.</li>
+                                                    <li>- Evita o extravio das chaves;</li>
+                                                    <li>- Organização;</li>
+                                                    <li>- Controle;</li>
+                                                    <li>- Praticidade</li>
                                                 </ul>
                                             </details>
                                             <br>
@@ -303,28 +314,28 @@
             </section>
             <!-- container -->
             <section class="faixa-content">
-                <div class="container" style="background:red;">
+                <div class="container" style="background:#FFA007;">
                     <div class="row">
                         <div class="col s12 m12 l12">
-                            <div class="col s12 m6 l3">
+                            <div class="col s6 m6 l3">
                                 <div class="icone">
                                     <i class="icon fa fa-truck fa-2x fa-flip-horizontal" aria-hidden="true"></i>
                                     <p class="white-text paragraph center">Produtos pronta-entrega</p>
                                 </div>
                             </div>
-                            <div class="col s12 m6 l3 black">
+                            <div class="col s6 m6 l3 black">
                                 <div class="icone">
                                     <i class="icon small material-icons white-text">security</i>
                                     <p class="paragraph white-text center">Mais segurança para seu negócio</p>
                                 </div>
                             </div>
-                            <div class="col s12 m6 l3">
+                            <div class="col s6 m6 l3">
                                 <div class="icone">
                                     <i class="icon small material-icons white-text">credit_card</i>
                                     <p class="white-text paragraph center">Placas Personalizadas</p>
                                 </div>
                             </div>
-                            <div class="col s12 m6 l3 black">
+                            <div class="col s6 m6 l3 black">
                                 <div class="icone">
                                     <i class="icon fa fa-whatsapp fa-2x" aria-hidden="true"></i>
                                     <p class="paragraph white-text center"><a href="http://" target="_blank" rel="noopener noreferrer" class="white-text">Fale com um vendedor</a></p>
@@ -344,13 +355,13 @@
             <section class="scrollspy" id="depoimentos">
                 <div class="container">
                     <h4 class="h4-titulo">Depoimentos</h4>
-                    <hr style="width: 200px; border-top: 3px solid #ff4343; margin: 15px auto;">
+                    <hr style="width: 200px; border-top: 3px solid #FFA007; margin: 15px auto;">
                     <p class="h4-titulo center">Veja o que nossos clientes estão falando sobre nós!</p>
                     <div class="row">
                         <div class="col s12 m4 l4">
                             <div class="card white card-fox">
                                 <div class="card-content white-text">
-                                    <p class="center-align h5-titulo black-text">Raul Oliveira</p>
+                                    <p class="center-align h6-titulo black-text">Raul Oliveira</p>
                                     <p class="paragraph black-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                                     <div class="feed-stan">
                                         <i class="fa fa-star fa-2x" aria-hidden="true"></i>
@@ -366,7 +377,7 @@
                         <div class="col s12 m4 l4">
                             <div class="card white card-fox">
                                 <div class="card-content white-text">
-                                    <p class="center-align h5-titulo black-text">Raul Oliveira</p>
+                                    <p class="center-align h6-titulo black-text">Raul Oliveira</p>
                                     <p class="paragraph black-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                                     <div class="feed-stan">
                                         <i class="fa fa-star fa-2x" aria-hidden="true"></i>
@@ -382,7 +393,7 @@
                         <div class="col s12 m4 l4">
                             <div class="card white card-fox">
                                 <div class="card-content white-text">
-                                    <p class="center-align h5-titulo black-text">Raul Oliveira</p>
+                                    <p class="center-align h6-titulo black-text">Raul Oliveira</p>
                                     <p class="paragraph black-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                                     <div class="feed-stan">
                                         <i class="fa fa-star fa-2x" aria-hidden="true"></i>
@@ -402,7 +413,7 @@
                 <div class="container">
                     <div class="row">
                         <h4 class="h4-titulo">Parceiros</h4>
-                        <hr style="width: 200px; border-top: 3px solid #ff4343; margin: 15px auto;">
+                        <hr style="width: 200px; border-top: 3px solid #FFA007; margin: 15px auto;">
                         <div class="col s12 m6 l4">
                             <img src="img/movida-logo.png" class="responsive-img img-effects" loading="lazy" alt="" width="500" height="200">
                         </div>
@@ -420,14 +431,14 @@
                 <div class="container">
                     <div class="row">
                         <h4 class="h4-titulo">Galeria</h4>
-                        <hr style="width: 200px; border-top: 3px solid #ff4343; margin: 15px auto;">
-                        <div class="col s12 m6 l4">
+                        <hr style="width: 200px; border-top: 3px solid #FFA007; margin: 15px auto;">
+                        <div class="col s12 m6 l4"><br>
                             <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio" loading="lazy" alt="Ilustração da caixa de alumínio" width="500" height="200" src="img/ilustração-caixa-alumínio.jpg">
                         </div>
-                        <div class="col s12 m6 l4">
+                        <div class="col s12 m6 l4"><br>
                             <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio aberta" loading="lazy" alt="Ilustração da caixa de alumínio aberta" width="500" height="200" src="img/ilustração-caixa-alumínio-aberta.jpg">
                         </div>
-                        <div class="col s12 m6 l4">
+                        <div class="col s12 m6 l4"><br>
                             <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio fecho" loading="lazy" alt="Ilustração da caixa de alumínio fecho" width="500" height="200" src="img/ilustração-caixa-alumínio-fecho.jpg">
                         </div>
                         <!--  -->
@@ -438,7 +449,17 @@
                             <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio aberta" loading="lazy" alt="Ilustração da caixa de alumínio aberta" width="500" height="200" src="img/ilustração-caixa-nylon-aberta.jpg">
                         </div>
                         <div class="col s12 m6 l4"><br>
-                            <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de nylon fecho" loading="lazy" alt="Ilustração da caixa de alumínio fecho" width="500" height="200" src="img/ilustração-caixa-nylon-fecho.jpg">
+                            <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de nylon fecho" loading="lazy" alt="Ilustração da caixa de nylon fecho" width="500" height="200" src="img/ilustração-caixa-nylon-fecho.jpg">
+                        </div>
+                        <!--  -->
+                        <div class="col s12 m6 l4"><br>
+                            <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio" loading="lazy" alt="Ilustração da caixa de alumínio" width="500" height="200" src="img/ilustração-caixa-alumínio-arval.jpg">
+                        </div>
+                        <div class="col s12 m6 l4"><br>
+                            <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio" loading="lazy" alt="Ilustração da caixa de alumínio" width="500" height="200" src="img/ilustração-caixa-alumínio-toyota.jpg">
+                        </div>
+                        <div class="col s12 m6 l4"><br>
+                            <img class="materialboxed responsive-img" data-caption="Ilustração da caixa de alumínio" loading="lazy" alt="Ilustração da caixa de alumínio" width="500" height="200" src="img/ilustração-caixa-alumínio-mix.jpg">
                         </div>
                     </div>
                 </div>
@@ -450,7 +471,7 @@
                         <div class="col s12 m12 l12">
                             <div class="">
                                 <h4 class="h4-titulo">Onde Estamos</h4>
-                                <hr style="width: 200px; border-top: 3px solid #ff4343; margin: 15px auto;">
+                                <hr style="width: 200px; border-top: 3px solid #FFA007; margin: 15px auto;">
                             </div>
                             <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3660.148870095997!2d-46.346116!3d-23.455094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7cdc582d0a49%3A0xabffb92e3e36ba35!2sR.%20Silva%20T%C3%A9les%20-%20Jardim%20Sao%20Manoel%2C%20Itaquaquecetuba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1655657017895!5m2!1spt-BR!2sbr" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -462,19 +483,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 l4">
-                        <h5 class="h5-titulo white-text">BELA VISTA CAR</h5>
+                        <h5 class="h6-titulo white-text">BELA VISTA CAR</h5>
                         <p class="paragraph-footer center-align">You can use rows and columns here to organize your footer content.</p>
                     </div>
                     <div class="col s12 m4 l4">
-                        <h5 class="h5-titulo white-text">CONTATOS</h5>
-                        <p class="center-align"><a itemprop="email" class="paragraph-footer center white-text" href="mailto:" target="_blank">E-mail:falecombelavistacar@gmail.com</a></p>
+                        <h5 class="h6-titulo white-text">CONTATOS</h5>
+                        <p class="center-align"><a itemprop="email" class="paragraph-footer center white-text" href="mailto:contato@belavistacar.com.br" target="_blank">E-mail:contato@belavistacar.com.br</a></p>
                         <p class="paragraph-footer center-align" style="font-weight:bold;">Central de atendimento</p>
                         <p class="center-align">
-                            <a itemprop="telephone" class="paragraph-footer center white-text" href="tel+551146414911">Telefone:(11) 4641-4911</a></p>
+                            <a itemprop="telephone" class="paragraph-footer center white-text" href="tel+551146414911">Telefone:(11) 4641-4911</a><br>
+                            <a itemprop="telephone" class="paragraph-footer center white-text" href="tel+5511998962290">Celular:(11) 99896-2290</a>
+                        </p>
                     </div>
                     <div class="col s12 m4 l4">
-                        <h5 class="h5-titulo white-text">POLÍTICA DE PRIVACIDADE</h5>
-                        <p class="paragraph-footer center-align">You can use rows and columns here to organize your footer content.</p>
+                        <h5 class="h6-titulo white-text">POLÍTICA DE PRIVACIDADE</h5>
+                        <p class="paragraph-footer center-align" style="font-weight:bold;">
+                            <a href="lgpd/politiva-de-privacidade.html" target="_blank" rel="noopener noreferrer" class="white-text">Política de Privacidade</a>
+                        </p>
                     </div>
                 </div>
             </div>

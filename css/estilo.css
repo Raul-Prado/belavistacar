@@ -114,6 +114,10 @@ div.tist:hover{
     transition:0.5s;
     cursor: pointer;
 }
+.logo_img{
+    width:12vh;
+    margin-top:2px;
+}
 /* faixa */
 .faixa-content{
     margin-top:-20px;
@@ -226,7 +230,7 @@ div.card-fox{
     font-family:'Montserrat-regular',Arial, Helvetica, sans-serif;
 	font-display: swap;
     font-size:1em;
-    font-weight: bold;
+    font-weight:500;
     color:var(--black);
 }
 .paragraph-footer{

@@ -4,11 +4,11 @@ $(document).ready(function()
         fullWidth: true,
         height: 430
     });
-    // setInterval(function() {
+    setInterval(function() {
  
-    //     $('.carousel.carousel-slider').carousel('next');
+        $('.carousel.carousel-slider').carousel('next');
      
-    // }, 8000);
+    }, 8000);
     $('.scrollspy').scrollSpy();
     // zoom foto
     $('.materialboxed').materialbox();

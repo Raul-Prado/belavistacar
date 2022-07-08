@@ -270,6 +270,11 @@ div.footer-sub{
     nav .brand-logo{
         font-size:1.5em !important;
     }
+    /* logo */
+    .logo_img{
+        width:10vh;
+        margin-top:2px;
+    }
     /*  */
     .btn-center{
         justify-content: center;
